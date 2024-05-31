@@ -1,0 +1,82 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Haircut",
+            "description": "Professional haircut tailored to the client's style and preference.",
+            "price": 20.00
+        },
+        {
+            "id": 2,
+            "name": "Classic Shave",
+            "description": "Traditional shave with a straight razor and hot towel for a smooth, precise finish.",
+            "price": 15.00
+        },
+        {
+            "id": 3,
+            "name": "Beard Trim",
+            "description": "Maintenance and design of the beard for a polished and elegant look.",
+            "price": 10.00
+        },
+        {
+            "id": 4,
+            "name": "Full Beard Shave",
+            "description": "Complete beard shave using advanced techniques for a clean finish.",
+            "price": 20.00
+        },
+        {
+            "id": 5,
+            "name": "Haircut and Beard Trim",
+            "description": "Combined package of haircut and beard trim for an integrated look.",
+            "price": 25.00
+        },
+        {
+            "id": 6,
+            "name": "Facial Mask",
+            "description": "Deep cleansing treatment with a facial mask for refreshed and renewed skin.",
+            "price": 15.00
+        },
+        {
+            "id": 7,
+            "name": "Hair Treatment",
+            "description": "Special hair treatment including deep cleansing, conditioning, and massages.",
+            "price": 30.00
+        },
+        {
+            "id": 8,
+            "name": "Kids' Haircut",
+            "description": "Professional haircut for children, ensuring comfort and style.",
+            "price": 15.00
+        },
+        {
+            "id": 9,
+            "name": "Hair Coloring",
+            "description": "Hair dyeing and coloring service tailored to the client's trends and preferences.",
+            "price": 40.00
+        },
+        {
+            "id": 10,
+            "name": "Permanent Hair Straightening",
+            "description": "Straightening treatment for long-lasting smooth and manageable hair.",
+            "price": 50.00
+        },
+        {
+            "id": 11,
+            "name": "Eyebrow Shaping",
+            "description": "Design and shaping of eyebrows to enhance facial appearance.",
+            "price": 10.00
+        },
+        {
+            "id": 12,
+            "name": "Ear Cleaning",
+            "description": "Ear cleaning service to improve hygiene and auditory health.",
+            "price": 10.00
+        },
+        {
+            "id": 13,
+            "name": "Men's Manicure",
+            "description": "Care and maintenance of hand nails for a polished and professional appearance.",
+            "price": 20.00
+        }
+    ]
+}
