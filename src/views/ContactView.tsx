@@ -12,31 +12,33 @@ export default function ContactView() {
                 </div>
                 <div className="flex justify-center mt-24">
                     <form
-                        className="w-1/2 bg-slate-400 rounded-xl p-4"
+                        className="w-1/2 bg-slate-400 rounded-xl p-4 mb-16"
                     >
                         <div className="flex flex-col gap-4">
                             <input
-                                className="w-full p-2 text-xl font-semibold rounded-md"
+                                className="w-full p-2 border-0 text-xl text-gray-900 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-400 placeholder:text-gray-300"
                                 type="text"
                                 name="name"
                                 placeholder="Your Name"
                             />
                             <input
-                                className="w-full p-2 text-xl font-semibold rounded-md"
+                                className="w-full p-2 border-0 text-xl text-gray-900 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-400 placeholder:text-gray-300"
                                 type="tel"
                                 name="phone"
                                 placeholder="Your Phone Number"
                             />
                             <input
-                                className="w-full p-2 text-xl font-semibold rounded-md"
+                                className="w-full p-2 border-0 text-xl text-gray-900 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-400 placeholder:text-gray-300"
                                 type="email"
                                 name="email"
                                 placeholder="Your email"
                             />
                             <textarea
                                 name="message"
-                                className="w-full p-2 text-xl font-semibold rounded-md"
+                                className="w-full p-2 border-0 text-xl text-gray-900 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-400 placeholder:text-gray-300"
                                 placeholder="How we could help you?"
+                                rows={5}
+                                maxLength={400}
                             ></textarea>
                             <input
                                 type="submit"

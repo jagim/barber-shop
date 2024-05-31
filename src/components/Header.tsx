@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className={isHome ? "border-b-4 border-white" : ""}>
+            <div className={isHome ? "border-b-4 border-white" : "bg-black/80"}>
                 <div className="container max-w-screen-xl mx-auto flex items-center justify-between py-3 px-4 z-20">
                     <img
                         src="logo.svg"
@@ -18,6 +18,7 @@ export default function Header() {
                     <nav className="flex items-center gap-16 px-10 py-1 border border-black rounded-3xl bg-slate-800/60">
                         <NavButton to="/" content="Home" />
                         <NavButton to="/book" content="Book" />
+                        <NavButton to="/gallery" content="Gallery" />
                         <NavButton to="/contact" content="Contact" />
                     </nav>
                 </div>

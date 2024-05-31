@@ -1,6 +1,6 @@
 export default function FindUs() {
     return (
-        <section className="max-w-5xl mx-auto mt-16">
+        <section className="max-w-5xl mx-auto my-16">
             <div className="flex flex-col gap-8 p-8">
                 <h1 className="text-6xl text-center font-extrabold text-yellow-300/85">Where to find Us?</h1>
                 <div className="flex lg:flex-row flex-col lg:items-start items-center gap-8">

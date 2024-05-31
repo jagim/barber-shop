@@ -2,18 +2,13 @@ import SocialMedia from "./SocialMedia";
 
 export default function Footer() {
     return (
-        <footer className="mt-16 bg-black/80">
-            <div className="max-screen-2xl flex lg:flex-row flex-col gap-8 justify-around items-center p-4">
-                <div className="flex gap-4 items-center">
-                    <div>
-                        <img src="logo.svg" alt="barbershop logo" className="w-32 border-black rounded-full bg-slate-800/60" />
-                    </div>
-                    <div className="flex flex-col">
-                        <h1 className="text-5xl text-orange-500 font-black">Onix</h1>
-                        <h2 className="text-4xl text-slate-300 font-bold">BarberShop</h2>
-                    </div>
-                </div>
-
+        <footer className="bg-black/80 p-4">
+            <div className="max-screen-2xl flex lg:flex-row flex-col gap-8 justify-around items-center p-4 mt-16">
+                <img
+                    src="logo.svg"
+                    alt="barbershop logo"
+                    className="w-32 border border-slate-500 rounded-full bg-slate-800/60"
+                />
                 <div className="flex flex-col gap-2">
                     <p className="flex gap-2 text-slate-300 font-medium">
                         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">

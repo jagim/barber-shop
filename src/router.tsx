@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Layout from "./layout/Layout"
 import { Suspense, lazy } from "react"
-import ContactView from "./views/ContactView"
 
 const IndexView = lazy(() => import('./views/IndexView'))
+const GalleryView = lazy(() => import('./views/GalleryView'))
+const ContacView = lazy(() => import('./views/ContactView'))
 
 export default function AppRouter() {
     return (
@@ -11,8 +12,8 @@ export default function AppRouter() {
             <Routes>
                 <Route element={<Layout />}>
                     <Route index path="/" element={<Suspense fallback="loading..."><IndexView /></Suspense>} />
-                    <Route index path="/contact" element={<Suspense fallback="loading..."><ContactView /></Suspense>} />
-
+                    <Route path="/gallery" element={<Suspense fallback="loading..."><GalleryView /></Suspense>} />
+                    <Route path="/contact" element={<Suspense fallback="loading..."><ContacView /></Suspense>} />
                 </Route>
             </Routes>
         </BrowserRouter>
