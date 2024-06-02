@@ -3,13 +3,12 @@ import { photos } from "../data/galery.json"
 import Modal from "../components/Modal"
 
 export default function GalleryView() {
-    const [newPath, setNewPath] = useState<string>()
+    const [path, setPath] = useState<string>()
     const [flag, setFlag] = useState(false)
 
     const handleClick = (event: MouseEvent<HTMLImageElement>) => {
-        const src = event.currentTarget.getAttribute('src')
-        const path = src?.replace('thumb', 'display')!
-        setNewPath(path)
+        const src = event.currentTarget.getAttribute('src')!
+        setPath(src)
         setFlag(true)
     }
 
@@ -31,7 +30,7 @@ export default function GalleryView() {
                         />
                     ))}
                 </div>
-                {flag && <Modal newPath={newPath!} flag={flag} setFlag={setFlag} />}
+                {flag && <Modal path={path!} flag={flag} setFlag={setFlag} />}
             </div>
         </section>
     )
