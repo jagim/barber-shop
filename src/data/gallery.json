@@ -1,0 +1,64 @@
+{
+    "photos": [
+        {
+            "id": "1",
+            "src": "/gallery/01.webp",
+            "alt": "gradient style haircut"
+        },
+        {
+            "id": "2",
+            "src": "/gallery/02.webp",
+            "alt": "beard cutting with scissors"
+        },
+        {
+            "id": "3",
+            "src": "/gallery/03.webp",
+            "alt": "kid modern style haircut"
+        },
+        {
+            "id": "4",
+            "src": "/gallery/04.webp",
+            "alt": "hair cut with scissors"
+        },
+        {
+            "id": "5",
+            "src": "/gallery/05.webp",
+            "alt": "modern haircut with machine"
+        },
+        {
+            "id": "6",
+            "src": "/gallery/06.webp",
+            "alt": "modern haircut with machine"
+        },
+        {
+            "id": "7",
+            "src": "/gallery/07.webp",
+            "alt": "classic shave"
+        },
+        {
+            "id": "8",
+            "src": "/gallery/08.webp",
+            "alt": "gradient style haircut"
+        },
+        {
+            "id": "9",
+            "src": "/gallery/09.webp",
+            "alt": "machine beard shaving"
+        },
+        {
+            "id": "10",
+            "src": "/gallery/10.webp",
+            "alt": "hair cut with scissors"
+        },
+        {
+            "id": "11",
+            "src": "/gallery/11.webp",
+            "alt": "barber kit image"
+        },
+        {
+            "id": "12",
+            "src": "/gallery/12.webp",
+            "alt": "barber salon seats"
+        }
+    ]
+}

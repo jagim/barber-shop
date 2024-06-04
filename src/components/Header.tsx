@@ -25,19 +25,18 @@ export default function Header() {
 
                 <div className={isHome ? "flex flex-col relative" : "hidden"} >
                     <img
-                        src="https://images.unsplash.com/photo-1635531748077-54c8d53283f4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/banner.webp"
                         alt="hero image"
                         className="w-full h-[50rem] object-cover -mt-40 -z-50"
                     />
                     <div className="md:flex hidden">
                         <img
-                            src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="/side-banner.webp"
                             alt="barber photo"
                             className="max-w-md absolute -bottom-40 left-40 border-2 border-white"
                         />
                     </div>
                 </div>
-
             </div>
         </header>
     )

@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 export default function Footer() {
     return (
         <footer className="bg-black/80 p-4">
-            <div className="max-screen-2xl flex lg:flex-row flex-col gap-8 justify-around items-center p-4 mt-16">
+            <div className="max-screen-2xl flex lg:flex-row flex-col gap-8 justify-around items-center p-4">
                 <img
                     src="logo.svg"
                     alt="barbershop logo"

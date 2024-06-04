@@ -1,5 +1,5 @@
 import { MouseEvent, useState } from "react"
-import { photos } from "../data/galery.json"
+import { photos } from "../data/gallery.json"
 import Modal from "../components/Modal"
 
 export default function GalleryView() {
