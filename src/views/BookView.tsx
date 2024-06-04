@@ -56,9 +56,8 @@ export default function BookView() {
             <div className="flex flex-col gap-8 items-center">
                 <h1 className="text-6xl text-center font-extrabold text-yellow-300/85 mt-24">Book</h1>
                 <p className="text-2xl text-slate-300 font-bold">Checkout our calendar and fill the form to book a date with us!</p>
-
-                <div className="flex gap-10 my-16">
-                    <div className="w-80 h-full bg-slate-400 rounded-xl p-4 shadow-md shadow-slate-600">
+                <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-10 my-16 mx-5">
+                    <div className="w-96 h-full bg-slate-400 rounded-xl p-4 shadow-md shadow-slate-600">
                         <h2 className="text-2xl font-black p-2 border-b-2 border-slate-900">Price Table</h2>
                         <div className="flex flex-col gap-4 mt-5">
                             {services.map(service => (
@@ -102,7 +101,7 @@ export default function BookView() {
                         />
                     </form>
 
-                    <div className="w-80 flex flex-col bg-slate-400 rounded-xl p-4 shadow-md shadow-slate-600">
+                    <div className="w-96 flex flex-col bg-slate-400 rounded-xl p-4 shadow-md shadow-slate-600">
                         <h2 className="text-2xl font-black p-2 border-b-2 border-slate-900">Resume:</h2>
                         <div className="flex flex-col flex-1 mt-5">
                             {booking.length === 0 ? (
@@ -117,7 +116,7 @@ export default function BookView() {
                                             <p className="font-bold text-green-800">{formatDate(service.bookDate.toString())} </p>
                                         </div>
                                     ))}
-                                    < div className="flex justify-center mt-2">
+                                    < div className="flex justify-end my-2">
                                         <p className="text-slate-200 text-center font-semibold bg-green-800 p-2 rounded-lg">Total: $<span>{total}</span></p>
                                     </div>
                                 </>
